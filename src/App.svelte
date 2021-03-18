@@ -3,7 +3,7 @@
 <script>
   import { jokeData } from "./jokeData.js";
   import { onMount } from "svelte";
-
+  console.log(jokeData.length);
   let randomNumber = 0;
 
   const getRandomNumber = () =>
@@ -43,7 +43,7 @@
     color: white;
     font-size: 2em;
     text-align: center;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   }
   button {
     width: 100%;
@@ -81,7 +81,7 @@
     background-image: linear-gradient(
       to bottom,
       transparent,
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.1)
     );
     color: #333;
     font-size: 20px;
