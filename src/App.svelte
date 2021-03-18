@@ -29,7 +29,7 @@
   article {
     width: 600px;
     margin: auto;
-    padding: 2em;
+    padding: 2em 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
